@@ -185,7 +185,7 @@ ul
     width: 182px;
     height: 48px;
     background: #784F33;
-    border-color: #784F33;
+    border: 1px solid #784F33;
     border-radius: 37px;
     flex: none;
     order: 0;
@@ -207,7 +207,126 @@ ul
 }
 #head_button1:hover
 {
-    /* background: #FFFFFF;
-    color: #784F33; */
-    background-position: 0;
+    
+    color: #784F33;
+   background: #FFFFFF;
+}
+#head_button2
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 36px;
+    gap: 10px;
+    width: 155px;
+    height: 48px;
+    border: 1px solid #784F33;
+    border-radius: 37px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #784F33;
+}
+#head_button2:hover
+{
+    
+    color: #FFFFFF;
+   background: #784F33;
+}
+#features4
+{
+    position: absolute;
+    height: 799px;
+    left: 0px;
+    right: 2px;
+    top: 770px;
+    background: #FFFFFF;
+}
+#main_div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px;
+    position: absolute;
+    width: 1050px;
+    height: 792px;
+    left: calc(50% - 1050px/2 - 2px);
+    top: 0px;
+}
+#main_div_sec
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 45px 0px;
+    width: 1050px;
+    height: 190px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#div_sec_div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 509px;
+    height: 100px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#sec_div_h2
+{
+    width: 419px;
+    height: 50px;
+    font-family:'Martel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0;
+}
+#sec_div_p
+{
+    width: 431px;
+    height: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#main_sec
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    width: 1046px;
+    height: 254px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
